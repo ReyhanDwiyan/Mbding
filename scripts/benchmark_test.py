@@ -44,14 +44,14 @@ BENCHMARK_CONFIG = {
     "chunk_size": 2500,
     "chunk_overlap": 400,
     "chunking_method": "Hybrid",
-    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
-    "embedding_dim": 384,
+    "embedding_model": "mixedbread-ai/mxbai-embed-2d-large-v1",  # KOREKSI: Model Baru
+    "embedding_dim": 1024,                                       # KOREKSI: Dimensi 1024
     "language_support": "Mayoritas Inggris",
     "query_types": ["factoid_simple", "reasoning_complex", "paraphrased_semantic", "conversational_noisy"],
     "top_k": 5,
     "metadata_filter": "Tidak",
     "expected_hit_rate": "100%",
-    "expected_latency": "25.34 ms",
+    "expected_latency": "N/A",
 }
 
 # ============================================================================
@@ -397,17 +397,17 @@ class BenchmarkTester:
 
 
 def main():
-    """Run benchmark"""
     logger.info(f"Working directory: {os.getcwd()}")
     
+    # KOREKSI: Gunakan nama koleksi baru khusus mxbai agar tidak bentrok dengan index MiniLM (384D)
     tester = BenchmarkTester(
         qdrant_path="./qdrant_db",
-        collection_name="scientific_articles",
+        collection_name="scientific_articles_mxbai", 
     )
     
     results = tester.run_benchmark()
-    tester.save_results("benchmark_results.json")
-    tester.export_to_csv("benchmark_results.csv")
+    tester.save_results("benchmark_results_mxbai.json")
+    tester.export_to_csv("benchmark_results_mxbai.csv")
     
     return results
 

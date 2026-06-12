@@ -44,11 +44,10 @@ from core.retry import retry_call
 logger = logging.getLogger(__name__)
 
 # === Configuration ===
-COLLECTION_NAME = "scientific_articles"
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"  # Model kecil, ~90MB
-DENSE_DIM = 384
+COLLECTION_NAME = "scientific_articles_mxbai" # Bedakan nama koleksi
+EMBEDDING_MODEL = "mixedbread-ai/mxbai-embed-2d-large-v1"  # Ganti ke Mxbai
+DENSE_DIM = 1024                              # Sesuaikan dimensi ke 1024
 MAX_LENGTH = 512
-
 # Named vectors in Qdrant
 DENSE_VECTOR = "dense"
 SPARSE_VECTOR = "sparse"
