@@ -1,24 +1,24 @@
 Ukuran Chunk,Overlap,Metode Chunking,Dukungan Bahasa,Tipe Query Uji,Top-K,Filter Metadata,Query Text,Hit Rate,Latensi (ms),Top Score,Results Count,Ukuran Index DB
-2500,400,Hybrid,Mayoritas Inggris,Factoid Simple,5,Tidak,Berapa prevalensi subclinical hypothyroidism di Amerika Lati,100.0%,26.81,0.6406,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Factoid Simple,5,Tidak,Berapa banyak studi yang diinklusikan dalam meta-analysis?,100.0%,12.38,0.3335,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Factoid Simple,5,Tidak,Negara mana saja yang termasuk dalam analysis?,100.0%,11.41,0.1559,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Factoid Simple,5,Tidak,Berapa dimensi dari model embedding yang digunakan?,100.0%,11.68,0.0458,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Reasoning Complex,5,Tidak,Mengapa hypothyroid forms lebih dominan daripada hyperthyroi,100.0%,10.34,0.6645,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Reasoning Complex,5,Tidak,Apa alasan utama variabilitas diagnostik criteria di berbaga,100.0%,12.53,0.5448,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Reasoning Complex,5,Tidak,Bagaimana relationship antara clinical dan subclinical hypot,100.0%,12.52,0.6212,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Reasoning Complex,5,Tidak,Mengapa subclinical hypothyroidism dua kali lebih sering dar,100.0%,13.88,0.6840,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Paraphrased Semantic,5,Tidak,Frekuensi penyakit tiroid yang tidak aktif secara klinis di ,100.0%,15.51,0.2794,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Paraphrased Semantic,5,Tidak,Jumlah penelitian yang dianalisis dalam systematic review in,100.0%,12.02,0.4127,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Paraphrased Semantic,5,Tidak,Variasi pemeriksaan TSH untuk mendeteksi hipotiroidisme lint,100.0%,13.68,0.4070,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Paraphrased Semantic,5,Tidak,Perbandingan kondisi tiroid rendah yang tersembunyi vs yang ,100.0%,13.69,0.2528,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Conversational Noisy,5,Tidak,berapa sih prevalensi hypothyroidism di latam?,100.0%,13.20,0.6130,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Conversational Noisy,5,Tidak,studi apa aja yang dipakai buat meta analysis ni?,100.0%,11.76,0.3000,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Conversational Noisy,5,Tidak,negara2 di study ini siapa aja?,100.0%,11.35,0.2983,5,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,Conversational Noisy,5,Tidak,kenapa lebih banyak hypothyroid daripada hyperthyroid?,100.0%,10.71,0.5291,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Factoid Simple,5,Tidak,Berapa prevalensi subclinical hypothyroidism di Amerika Lati,100.0%,274.63,0.6406,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Factoid Simple,5,Tidak,Berapa banyak studi yang diinklusikan dalam meta-analysis?,100.0%,30.54,0.3335,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Factoid Simple,5,Tidak,Negara mana saja yang termasuk dalam analysis?,100.0%,21.69,0.1559,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Factoid Simple,5,Tidak,Berapa dimensi dari model embedding yang digunakan?,100.0%,20.26,0.0458,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Reasoning Complex,5,Tidak,Mengapa hypothyroid forms lebih dominan daripada hyperthyroi,100.0%,19.59,0.6645,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Reasoning Complex,5,Tidak,Apa alasan utama variabilitas diagnostik criteria di berbaga,100.0%,20.08,0.5448,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Reasoning Complex,5,Tidak,Bagaimana relationship antara clinical dan subclinical hypot,100.0%,13.02,0.6212,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Reasoning Complex,5,Tidak,Mengapa subclinical hypothyroidism dua kali lebih sering dar,100.0%,14.13,0.6840,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Paraphrased Semantic,5,Tidak,Frekuensi penyakit tiroid yang tidak aktif secara klinis di ,100.0%,20.18,0.2794,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Paraphrased Semantic,5,Tidak,Jumlah penelitian yang dianalisis dalam systematic review in,100.0%,16.13,0.4127,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Paraphrased Semantic,5,Tidak,Variasi pemeriksaan TSH untuk mendeteksi hipotiroidisme lint,100.0%,19.06,0.4070,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Paraphrased Semantic,5,Tidak,Perbandingan kondisi tiroid rendah yang tersembunyi vs yang ,100.0%,17.68,0.2528,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Conversational Noisy,5,Tidak,berapa sih prevalensi hypothyroidism di latam?,100.0%,14.10,0.6130,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Conversational Noisy,5,Tidak,studi apa aja yang dipakai buat meta analysis ni?,100.0%,14.19,0.3000,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Conversational Noisy,5,Tidak,negara2 di study ini siapa aja?,100.0%,12.45,0.2983,5,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,Conversational Noisy,5,Tidak,kenapa lebih banyak hypothyroid daripada hyperthyroid?,100.0%,11.71,0.5291,5,~120 MB
 ,,,,,,,,,,,,
-2500,400,Hybrid,Mayoritas Inggris,[SUMMARY] Factoid Simple,5,Tidak,Avg of 4 queries,100.0%,15.57,0.0458-0.6406,N/A,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,[SUMMARY] Reasoning Complex,5,Tidak,Avg of 4 queries,100.0%,12.32,0.5448-0.6840,N/A,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,[SUMMARY] Paraphrased Semantic,5,Tidak,Avg of 4 queries,100.0%,13.72,0.2528-0.4127,N/A,~120 MB
-2500,400,Hybrid,Mayoritas Inggris,[SUMMARY] Conversational Noisy,5,Tidak,Avg of 4 queries,100.0%,11.76,0.2983-0.6130,N/A,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,[SUMMARY] Factoid Simple,5,Tidak,Avg of 4 queries,100.0%,86.78,0.0458-0.6406,N/A,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,[SUMMARY] Reasoning Complex,5,Tidak,Avg of 4 queries,100.0%,16.71,0.5448-0.6840,N/A,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,[SUMMARY] Paraphrased Semantic,5,Tidak,Avg of 4 queries,100.0%,18.26,0.2528-0.4127,N/A,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,[SUMMARY] Conversational Noisy,5,Tidak,Avg of 4 queries,100.0%,13.11,0.2983-0.6130,N/A,~120 MB
 ,,,,,,,,,,,,
-2500,400,Hybrid,Mayoritas Inggris,*** OVERALL ***,5,Tidak,Total 16 queries,100.0%,13.34,N/A,N/A,~120 MB
+2500,400,Hybrid,Mayoritas Inggris,*** OVERALL ***,5,Tidak,Total 16 queries,100.0%,33.71,N/A,N/A,~120 MB
